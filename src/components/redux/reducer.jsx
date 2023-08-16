@@ -3,8 +3,8 @@ import * as Types from "./TypeOfActions";
 
 // eslint-disable-next-line no-unused-vars
 let initialState = {
-  watched: JSON.parse(window.localStorage.watched),
-  watchedList: JSON.parse(window.localStorage.watched),
+  watched: [],
+  watchedList: [],
 };
 
 // eslint-disable-next-line import/no-anonymous-default-export

@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         {/* <Provider store={store}> */}
         <Header />
         <Routes>
@@ -31,7 +31,7 @@ function App() {
           <Route path="/add" element={<Add />} />
         </Routes>
         {/* </Provider> */}
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
